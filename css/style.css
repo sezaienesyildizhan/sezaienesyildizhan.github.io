@@ -6594,5 +6594,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.modal {
+  position: fixed !important;
+  z-index: 9999 !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.modal-backdrop {
+  z-index: 9998 !important;
+}
 
 /*# sourceMappingURL=style.css.map */
